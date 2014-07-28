@@ -81,7 +81,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: http://secret-cove-1109.herokuapp.com/
+  database: http://sugaryard.heroku.com/
 #  <<: *default
 #  database: sugar_production
 #  username: sugar
