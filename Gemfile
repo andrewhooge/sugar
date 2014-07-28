@@ -13,6 +13,7 @@ gem 'pg'
 gem 'rabl'
 gem 'rails', '4.1.4'
 gem 'rails-assets-backbone'
+gem  'bourbon'
 gem 'rails-assets-normalize.css'
 gem 'rails_12factor', group: :production
 gem 'rmagick', '2.13.2'
@@ -27,7 +28,6 @@ group :development do
   gem 'annotate'
   gem 'guard-rspec', require: false
   gem 'spring'
-  gem 'rails-assets-bourbon'
   gem "better_errors"
 end
 
