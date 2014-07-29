@@ -13,7 +13,7 @@ gem 'pg'
 gem 'rabl'
 gem 'rails', '4.1.4'
 gem 'rails-assets-backbone'
-gem  'bourbon'
+gem 'bourbon'
 gem 'rails-assets-normalize.css'
 gem 'rails_12factor', group: :production
 gem 'rmagick', '2.13.2'
