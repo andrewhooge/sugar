@@ -1,11 +1,15 @@
-var Student = Backbone.Model.extend ();
+var Student = Backbone.Model.extend ({
+  defaults: {
+    avatar : "http://i.imgur.com/s7mpWGj.jpg",
+    course : "ror"
+  },
+  urlRoot: 'students/'
+
+});
 
 var ClassRoster = Backbone.Collection.extend ({
     model: Student,
-
-    initialize: function (options) {
-      this.url = 'students/';
-    }
-});
+    url: 'students/'
+    });
 
 var classRoster = new ClassRoster();
